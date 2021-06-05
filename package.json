@@ -1,0 +1,24 @@
+{
+  "name": "insta_post",
+  "version": "1.0.0",
+  "description": "Aplicação para lembrar o uso do instagram",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/instagram.icns --out=dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheus-caldeira/insta_post.git"
+  },
+  "keywords": [],
+  "author": "Matheus Caldeira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheus-caldeira/insta_post/issues"
+  },
+  "homepage": "https://github.com/matheus-caldeira/insta_post#readme",
+  "dependencies": {
+    "electron": "^13.1.1"
+  }
+}

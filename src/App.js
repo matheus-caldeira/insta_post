@@ -8,7 +8,7 @@ const notify = Notifyer.notify({
 })
 
 const App = {
-  async start() {
+  start: async () => {
    try {
      await Notifyer.init()
 
